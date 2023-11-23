@@ -1,0 +1,14 @@
+### Purge cache by tag
+POST {{host}}/purge/weather
+
+### Get weather for Barcelona
+GET {{host}}/weather/Barcelona
+Accept: application/json
+
+### Get weather for Turin
+GET {{host}}/weather/Turin
+Accept: application/json
+
+### Get weather for London
+GET {{host}}/weather/London
+Accept: application/json

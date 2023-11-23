@@ -1,0 +1,11 @@
+﻿services:
+  weather.api:
+    image: weather.api
+    build:
+      context: .
+      dockerfile: Weather.API/Dockerfile
+      
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
